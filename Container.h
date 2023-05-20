@@ -1,8 +1,6 @@
 #pragma once
-
-#include <iostream>
+#include <memory>
 #include <stdexcept>
-#include <vector>
 /**
 * Doubly linked list
 **/
