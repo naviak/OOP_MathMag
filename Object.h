@@ -51,15 +51,7 @@ protected:
   std::string _name;
 };
 
-class NamedTask : public Task
-{
-  std::string toString() const override
-  {
-    return Task::toString();
-  }
-};
-
-class TaskWithResult : public NamedTask {};
+class TaskWithResult : public Task {};
 
 enum class OperationType
 {
